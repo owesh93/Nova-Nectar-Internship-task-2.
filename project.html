@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Portal</title>
+    <link rel="stylesheet" href="project.css">
+    <script defer src="project.js"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="container">
+            <!-- Logo linking to the home page -->
+            <a href="project.html" class="logo">MyJob</a>
+            <nav>
+                <ul>
+                    <!-- Home link -->
+                    <li><a href="project.html">Home</a></li>
+                    <li><a href="jobs.html">Jobs</a></li>
+                    <li><a href="company.html">Company</a></li>
+                    <li><a href="career.html">Career</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <a href="signup.html" class="btn">Signup</a>
+                <a href="findjob.html" class="btn">Find a job</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Find your dream job now</h1>
+                <p>1 lakh+ jobs for you to explore</p>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search for jobs" />
+                    <button> <a href="jobs.html" class="search">Search</a></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="categories">
+            <div class="container">
+                <h2>Popular Categories</h2>
+                <ul>
+                    <li>IT & Software</li>
+                    <li>Marketing</li>
+                    <li>Finance</li>
+                    <li>Design</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Companies Section -->
+        <section class="companies">
+            <div class="container">
+                <h2 class="h2">Top Companies Hiring Now</h2>
+                <div class="company-logos">
+                    <!-- Company 1 -->
+                    <div class="company-card">
+                        <img src="tcs.png" alt="TCS">
+                        <p>TCS</p>
+                        <a href="jobs.html">View Jobs</a>
+                    </div>
+
+                    <!-- Company 2 -->
+                    <div class="company-card">
+                        <img src="wipro.png" alt="Wipro">
+                        <p>Wipro</p>
+                        <a href="jobs.html">View Jobs</a>
+                    </div>
+
+                    <!-- Company 3 -->
+                    <div class="company-card">
+                        <img src="infosys.png" alt="Infosys">
+                        <p>Infosys</p>
+                        <a href="jobs.html">View Jobs</a>
+                    </div>
+
+                    <!-- Company 4 -->
+                    <div class="company-card">
+                        <img src="zomato.png" alt="Zomato">
+                        <p>Zomato</p>
+                        <a href="jobs.html">View Jobs</a>
+                    </div>
+
+                    <!-- Company 5 -->
+                    <div class="company-card">
+                        <img src="ola.png" alt="Ola">
+                        <p>Ola</p>
+                        <a href="jobs.html">View Jobs</a>
+                    </div>
+        </section>
+
+         <!-- Qualification Section -->
+         <section class="qualifications">
+            <div class="container">
+                <h2>What is your qualification?</h2>
+                <ul id="qualification-list">
+                    <li data-qualification="10th">10th pass</li>
+                    <li data-qualification="12th">12th pass</li>
+                    <li data-qualification="diploma">Diploma</li>
+                    <li data-qualification="graduate">Graduate</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+        <section class="cta">
+            <div class="container">
+                <h2>Talk to HR directly & get a job with better salary</h2>
+                <input type="text" placeholder="Enter your number to receive updates">
+                <button>Send</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 MyJob. All rights reserved.</p>
+            <ul>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
